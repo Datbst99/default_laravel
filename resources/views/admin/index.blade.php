@@ -7,6 +7,8 @@
 @endsection
 @section('content')
     <div>
-        oki
+        <div class="alert alert-success" role="alert">
+            Chào mừng bạn đến với trang quản trị hệ thống.
+        </div>
     </div>
 @stop

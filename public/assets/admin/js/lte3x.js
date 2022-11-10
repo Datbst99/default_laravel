@@ -11035,6 +11035,17 @@ __webpack_require__(/*! admin-lte */ "./node_modules/admin-lte/dist/js/adminlte.
 
 /***/ }),
 
+/***/ "./resources/assets/admin/sass/auth.scss":
+/*!***********************************************!*\
+  !*** ./resources/assets/admin/sass/auth.scss ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/assets/admin/sass/lte3x.scss":
 /*!************************************************!*\
   !*** ./resources/assets/admin/sass/lte3x.scss ***!
@@ -11058,15 +11069,16 @@ __webpack_require__(/*! admin-lte */ "./node_modules/admin-lte/dist/js/adminlte.
 /***/ }),
 
 /***/ 0:
-/*!***********************************************************************************************************************************!*\
-  !*** multi ./resources/assets/admin/js/lte3x.js ./resources/assets/admin/sass/lte3x.scss ./resources/assets/admin/sass/main.scss ***!
-  \***********************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/assets/admin/js/lte3x.js ./resources/assets/admin/sass/lte3x.scss ./resources/assets/admin/sass/main.scss ./resources/assets/admin/sass/auth.scss ***!
+  \***************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! D:\app\xampp\htdocs\build-app\resources\assets\admin\js\lte3x.js */"./resources/assets/admin/js/lte3x.js");
 __webpack_require__(/*! D:\app\xampp\htdocs\build-app\resources\assets\admin\sass\lte3x.scss */"./resources/assets/admin/sass/lte3x.scss");
-module.exports = __webpack_require__(/*! D:\app\xampp\htdocs\build-app\resources\assets\admin\sass\main.scss */"./resources/assets/admin/sass/main.scss");
+__webpack_require__(/*! D:\app\xampp\htdocs\build-app\resources\assets\admin\sass\main.scss */"./resources/assets/admin/sass/main.scss");
+module.exports = __webpack_require__(/*! D:\app\xampp\htdocs\build-app\resources\assets\admin\sass\auth.scss */"./resources/assets/admin/sass/auth.scss");
 
 
 /***/ })

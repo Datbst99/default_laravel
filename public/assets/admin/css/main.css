@@ -1,0 +1,11 @@
+.btn-default {
+  color: #fff;
+  background: linear-gradient(180deg, #faf1d5 0%, #f9d3ac 35%, #f9d3ac 100%);
+  border-color: #fad3aa;
+  box-shadow: none;
+}
+
+.text-main-color {
+  color: #888;
+}
+

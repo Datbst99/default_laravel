@@ -25,5 +25,6 @@ mix.js('resources/assets/admin/js/lte3x.js', 'public/assets/admin/js')
 
 mix.sass('resources/assets/admin/sass/lte3x.scss', 'public/assets/admin/css')
     .sass('resources/assets/admin/sass/main.scss', 'public/assets/admin/css')
+    .sass('resources/assets/admin/sass/auth.scss', 'public/assets/admin/css')
 
 mix.copy('resources/assets/admin/images', 'public/assets/admin/images')

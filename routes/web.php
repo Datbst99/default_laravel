@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use \App\Http\Controllers\Admin\DashboardController;
+use \App\Http\Controllers\Admin\CategoryController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,7 +22,10 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function (){
+    Route::get('/', [DashboardController::class, 'index'])->name('admin.dashboard');
 
-Route::get('/admin', function (){
-    return view('admin.index');
-})->name('admin.dashboard');
+    Route::get('/category', [CategoryController::class, 'index'])->name('admin.category');
+
+});
+
